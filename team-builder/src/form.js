@@ -19,7 +19,32 @@ const Form = props => {
         }
     };
 
+    const resetState = () => {
+        setName('')
+        setEmail('')
+        setRole('')
+    };
+
     return (
-        null        //start adding form here.
+        <form onSubmit={handleSubmit}>
+            <input
+                onChange={handleName}
+                type='text'
+                name='name'
+                value={name}
+                placeholder='Name:'
+            />
+            <input
+                onChange={handleEmail}
+                type='text'
+                name='email'
+                value={email}
+                placeholder='Email:'
+            />
+
+        </form>
+    
     )
 }
+
+export default Form;
