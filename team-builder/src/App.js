@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Form from './form';
+import Teamlist from './teamlist';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <header className="App-header">
         <div>List of Team Members</div>
         <Form />
+        <Teamlist member={member} />
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

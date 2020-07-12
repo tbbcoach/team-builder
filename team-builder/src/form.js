@@ -41,7 +41,13 @@ const Form = props => {
                 value={email}
                 placeholder='Email:'
             />
-
+            <input
+                onChange={handleRole}
+                type='text'
+                name='role'
+                value={role}
+                placeholder='Role - '
+            />
         </form>
     
     )
