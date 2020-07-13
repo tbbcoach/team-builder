@@ -26,7 +26,8 @@ const Form = props => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        
+        <form onSubmit={handleSubmit}>Team Member Input:
             <input
                 onChange={handleName}
                 type='text'
@@ -48,6 +49,7 @@ const Form = props => {
                 value={role}
                 placeholder='Role - '
             />
+            <button type='submit'>Add Member</button>
         </form>
     
     )

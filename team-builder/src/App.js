@@ -11,8 +11,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        
+        <Form member={member} setMember={setMember} />
         <div>List of Team Members</div>
-        <Form />
         <Teamlist member={member} />
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>

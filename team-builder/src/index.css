@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+input {
+  margin-top: 4%;
+}
+
+button {
+  margin: 4% 0;
+  padding: 2%;
+  background-color: blueviolet;
+  color: white;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  
+}
+
+.member {
+  height: 300px;
+  width: 500px;
+  margin: 2% auto;
+  background-color: burlywood;
+  color: purple;
+  border: 2px solid white;
+}
+
