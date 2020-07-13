@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+input {
+  margin-top: 4%;
+  background-color: lightcoral;
+}
+
+button {
+  margin: 4% 0;
+  padding: 2%;
+  background-color: blueviolet;
+  color: white;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  
+}
+
+.member {
+  height: 250px;
+  width: 500px;
+  margin: 2% auto;
+  background-color: burlywood;
+  color: purple;
+  border: 2px solid white;
+}
+
