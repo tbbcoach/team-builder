@@ -5,9 +5,9 @@ const Teamlist = props => {
         <div className='team-list'>
             {props.member.map((list, i) => (
                 <div className='member' key={i}>
-                    <p>{list.name}</p>
+                    <p>Name: {list.name}, Role - {list.role}</p>
                     <p>{list.email}</p>
-                    <p>{list.role}</p>
+                    {/* <p>{list.role}</p> */}
                 </div>
             ))}
         </div>

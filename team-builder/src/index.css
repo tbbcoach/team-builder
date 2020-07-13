@@ -20,6 +20,7 @@ form {
 
 input {
   margin-top: 4%;
+  background-color: lightcoral;
 }
 
 button {
@@ -38,7 +39,7 @@ button {
 }
 
 .member {
-  height: 300px;
+  height: 250px;
   width: 500px;
   margin: 2% auto;
   background-color: burlywood;
